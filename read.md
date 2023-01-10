@@ -1,5 +1,5 @@
-## Scraping de site de fofocas
-# Projeto realizado como freelance
+# Scraping de site de fofocas
+### Projeto realizado como freelance
 
 > Cliente entrou em contato procurando um Freelancer. Para realizar um "Bot", que irar entrar no site https://observatoriodosfamosos.uol.com.br/ e colher a ultima noticia.
 
