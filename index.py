@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
@@ -14,10 +13,9 @@ import re
 
 url = "https://observatoriodosfamosos.uol.com.br/"
 
-
 #Configurando o navegador
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")
+#options.add_argument("--headless")
 options.add_argument( 'options.add_argument( window-size=1200 x 600 )' )
 
 #web-driver, que instalado o navegador padrão utilizado na maquina do cliente
